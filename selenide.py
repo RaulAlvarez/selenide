@@ -18,6 +18,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions
 
+
 class Selenide:
     def __init__(self):
         self.browser = webdriver.Chrome()

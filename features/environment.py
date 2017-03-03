@@ -15,9 +15,11 @@ Copyright 2017 Raul Alvarez
 """
 import selenide
 
+
 def before_all(context):
     runner = selenide.Selenide()
     context.runner = runner
+
 
 def after_all(context):
     context.runner.quit()
