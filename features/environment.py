@@ -13,10 +13,10 @@ Copyright 2017 Raul Alvarez
    See the License for the specific language governing permissions and
    limitations under the License.
 """
-import Selenium
+import selenide
 
 def before_all(context):
-    runner = Selenium.Selenium()
+    runner = selenide.Selenide()
     context.runner = runner
 
 def after_all(context):
